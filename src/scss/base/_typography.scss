@@ -1,0 +1,13 @@
+@import url("//hello.myfonts.net/count/355c06");
+
+  
+@font-face {font-family: 'FFKarbidWebMedium';src: url('./webfonts/355C06_0_0.eot');src: url('./webfonts/355C06_0_0.eot?#iefix') format('embedded-opentype'),url('./webfonts/355C06_0_0.woff2') format('woff2'),url('./webfonts/355C06_0_0.woff') format('woff'),url('./webfonts/355C06_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'FFKarbidWebLight';src: url('./webfonts/355C06_1_0.eot');src: url('./webfonts/355C06_1_0.eot?#iefix') format('embedded-opentype'),url('./webfonts/355C06_1_0.woff2') format('woff2'),url('./webfonts/355C06_1_0.woff') format('woff'),url('./webfonts/355C06_1_0.ttf') format('truetype');}
+
+// HEADINGS
+.heading-primary {
+    font-family: 'FFKarbidWebLight', 'Source Sans Pro',sans-serif;
+    color: $font-color;
+}

@@ -1,0 +1,19 @@
+.col-slider {
+    // border: 2px solid black;
+    // position: relative;
+    height: 30rem;
+    box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
+}
+
+.slide-text {
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    color: $color-green;
+    // position: absolute;
+    // bottom: -1rem;
+}
+
+
