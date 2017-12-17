@@ -1,6 +1,11 @@
+.section-blog {
+    margin-top: 8rem
+}
+
 .blog-post {
     // border: 2px solid black;
-    // height: 15rem;
+    margin-top: 1rem;
+    background-color: rgba(247, 243, 232, 0.89);
     padding: 2rem;
     box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
 }
@@ -11,4 +16,20 @@
 
 .blog-heading {
     font-size: 1.5rem;
+}
+
+.blog-link {
+    text-decoration: none;
+    color: $font-color;
+}
+
+.blog-link:link,
+.blog-link:visited {
+    padding: 0.5rem 1rem;
+    color: $color-green;
+}
+
+.blog-link:hover {
+    text-decoration: none;
+    color: $font-color;
 }

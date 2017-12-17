@@ -1,6 +1,5 @@
 .col-slider {
-    // border: 2px solid black;
-    // position: relative;
+    background-color: rgba(247, 243, 232, 0.89);
     height: 30rem;
     box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
 }
@@ -12,8 +11,8 @@
 .carousel-control-next-icon,
 .carousel-control-prev-icon{
     color: $color-green;
-    // position: absolute;
-    // bottom: -1rem;
+    position: absolute;
+    bottom: 1rem; 
 }
 
 
