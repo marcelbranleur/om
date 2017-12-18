@@ -1,4 +1,3 @@
-
 .navbar {
     font-family: 'FFKarbidWebMedium', 'Source Sans Pro',sans-serif;
     background-color: #F7F3E8;
@@ -13,13 +12,11 @@
     border-bottom: 2px solid transparent;
 }
 
-
 .menu-link:hover,
 .menu-link:active {
     border-bottom: 2px solid $color-pink;
     transition: border-bottom .5s;
 }
-
 
 .menu-item {
     padding-left: 1.5rem;

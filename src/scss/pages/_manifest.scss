@@ -1,0 +1,15 @@
+.manifest {
+    margin-top: 12.5rem;
+    background-color: rgba(247, 243, 232, 0.89);
+    height: 170rem;
+    box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
+
+    & h4, h3, p {
+        padding: 0 3rem 0 3rem;
+    }
+
+    & h2 {
+        font-family: 'FFKarbidWebMedium', 'Source Sans Pro',sans-serif;
+        letter-spacing: 0.4rem;
+    }
+}
