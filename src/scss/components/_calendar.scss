@@ -1,0 +1,25 @@
+.calendar {
+    // border: 2px solid black;
+    position: relative;
+    margin-top: 1rem;
+    background-color: rgba(247, 243, 232, 0.89);
+    padding: 2rem;
+    box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
+
+    & a {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        color: $font-color;
+        background-color: rgba(53, 194, 124, 0.459);
+    }
+
+    & ul {
+        list-style: none;
+        padding: 0;
+    }
+}
