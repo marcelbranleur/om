@@ -5,7 +5,7 @@
 .blog-post {
     // border: 2px solid black;
     margin-top: 1rem;
-    background-color: rgba(247, 243, 232, 0.89);
+    background-color: rgba(254, 251, 244, 0.733);
     padding: 2rem;
     box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
 }
@@ -26,6 +26,6 @@
 
 .blog-link:link,
 .blog-link:visited {
-    padding: 0.5rem 1rem;
+    padding: 1rem 0rem;
     color: $color-pink;
 }

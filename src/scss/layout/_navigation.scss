@@ -1,7 +1,10 @@
 .navbar {
     font-family: 'FFKarbidWebMedium', 'Source Sans Pro',sans-serif;
     background-color: #F7F3E8;
-    // border-bottom: 2px solid $color-pink;
+
+    &-brand, ul {
+      padding:  0 8rem 0 8rem;
+    }
 }
 
 .navbar-toggler {
@@ -9,6 +12,7 @@
 }
 
 .menu-link {
+    padding-bottom: 0;
     border-bottom: 2px solid transparent;
 }
 
@@ -19,7 +23,7 @@
 }
 
 .menu-item {
-    padding-left: 1.5rem;
+    padding-left: 2rem;
 }
 
 .navbar-collapse {
@@ -31,14 +35,13 @@
 .english:link,
 .english:visited {
     position: relative;
-    right: -40.7rem;
+    right: -50.3rem;
     top: -4rem;
     color: rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
-    display: inline-block;
+    display: block;
     cursor: pointer;
-    padding: 0.5rem 1rem;
     font-size: 80%;
 
     &:hover {

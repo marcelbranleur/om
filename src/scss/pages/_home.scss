@@ -1,8 +1,10 @@
 body {
     font-family: 'FFKarbidWebLight', 'Source Sans Pro', sans-serif;
     background-image: url(../img/background.png);
-    background-position: center;
-    background-size: cover;
+    background-position: bottom;
+    
 }
 
-
+.container {
+    max-width: 970px;
+}
