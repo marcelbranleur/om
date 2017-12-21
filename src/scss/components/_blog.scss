@@ -1,31 +1,26 @@
-.section-blog {
-    margin-top: 8rem
-}
 
 .blog-post {
-    // border: 2px solid black;
-    margin-top: 1rem;
     background-color: rgba(254, 251, 244, 0.733);
-    padding: 2rem;
+    padding: 1rem 2rem 0rem 2rem;
     box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
+
+    a {
+        display: block;
+        text-decoration: none;
+    }
+
+    a:link,
+    a:visited {
+        padding: 1rem 0rem;
+        color: $color-pink;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+    
 }
 
-.blog-row {
-    margin-top: 2rem;
-}
 
-.blog-heading {
-    font-size: 1.5rem;
-}
 
-.blog-link {
-    display: block;
-    text-decoration: none;
-    color: $font-color;
-}
 
-.blog-link:link,
-.blog-link:visited {
-    padding: 1rem 0rem;
-    color: $color-pink;
-}

@@ -5,6 +5,11 @@
     &-brand, ul {
       padding:  0 8rem 0 8rem;
     }
+
+    & img {
+        height: 130px;
+        width: auto;
+    }
 }
 
 .navbar-toggler {
@@ -36,12 +41,11 @@
 .english:visited {
     position: relative;
     right: -50.3rem;
-    top: -4rem;
+    top: -2.5rem;
     color: rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
     display: block;
-    cursor: pointer;
     font-size: 80%;
 
     &:hover {
