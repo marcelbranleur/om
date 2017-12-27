@@ -1,0 +1,70 @@
+blockquote {
+    font-family: 'FFKarbidWebMedium', 'Source Sans Pro',sans-serif;
+    color: $font-color;
+    font-size: 1.2rem;
+    font-style: italic;
+    width: 100%;
+    margin: 0.25em 0;
+    padding: 0.25rem 2.5rem;
+    line-height: 1.45;
+    position: relative;
+
+    &::before {
+        display: block;
+        content: "\201C";
+        font-size: 5rem;
+        position: absolute;
+        left: -0.6rem;
+        top: -1.6rem;
+        color: #7a7a7a;
+    }
+
+    & cite {
+        color: #999999;
+        font-size: 0.8rem;
+        display: block;
+        margin-top: 5px;
+    }
+
+    & cite::before {
+        content: "\2014 \2009";
+    }
+}
+ 
+a {
+
+    &:link,
+    &:visited {
+        color: $color-pink;
+    }
+
+    &:hover {
+        color: $color-pink;
+        text-decoration:underline;
+    }
+}
+
+.wp-post-image {
+    max-width: 35rem;
+    height: auto;
+}
+
+.attachment-thumbnail {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.attachment-medium {
+    max-width: 50%;
+    height: auto;
+}
+
+.attachment-large {
+    max-width: 75%;
+    height: auto;
+}
+
+.attachment-full {
+    max-width: 100%;
+    height: auto;
+}
