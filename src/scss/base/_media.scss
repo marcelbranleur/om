@@ -1,0 +1,149 @@
+/* xs */
+
+@media (max-width: 575px) {
+  a.navbar-brand {
+    padding: 0 0;
+  }
+  div#navbarTogglerDemo02 {
+    top: 7rem;
+    padding-top: 0;
+    background-color: rgba(254, 251, 244, 1);
+    right: 0.9rem;
+    .english:link,
+    .english:visited {
+      // position: absolute;
+      // right: 1rem;
+      // top: -3.5rem;
+      right: -5.4rem;
+      top: -5.5rem;
+    }
+    ul {
+      background-color: rgba(254, 251, 244, 1);
+      padding: 1rem 2rem 1rem 2rem;
+      box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
+      padding-top: 0;
+      li {
+        text-transform: uppercase;
+      }
+    }
+  }
+  div.col-slider {
+    margin-bottom: 3rem;
+    div.carousel-inner {
+      div.carousel-item {
+        .slide-text {
+          padding: 1rem 2rem 1rem 2rem;
+        }
+      }
+    }
+    .carousel-control-prev-icon {
+      left: 0;
+    }
+    .carousel-control-next-icon {
+      right: 0;
+    }
+  }
+  li.nav-item {
+    padding-top: 1rem;
+    a.nav-link {
+      display: inline;
+    }
+  }
+}
+
+
+/* sm */
+
+@media (min-width: 576px) and (max-width: 767px) {
+  a.navbar-brand {
+    padding: 0 0;
+  }
+  div#navbarTogglerDemo02 {
+    right: 0.9rem;
+    .english:link,
+    .english:visited {
+      right: -5.4rem;
+      top: -3.5rem;
+    }
+    ul {
+      background-color: rgba(254, 251, 244, 1);
+      padding: 1rem 2rem 1rem 2rem;
+      box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
+      li {
+        text-transform: uppercase;
+      }
+    }
+  }
+  div.col-slider {
+    margin-bottom: 6rem;
+    div.carousel-inner {
+      height: 100%;
+      div.carousel-item {
+        position: relative;
+        .slide-text {
+          position: absolute;
+          top: 50%;
+          background-color: rgba(254, 251, 244, 0.8);
+        }
+      }
+    }
+  }
+  li.nav-item {
+    padding-top: 1rem;
+    a.nav-link {
+      display: inline;
+    }
+  }
+}
+
+
+/* md */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  a.navbar-brand {
+    padding: 0 0;
+  }
+  div#navbarTogglerDemo02 {
+    right: 0.9rem;
+    .english:link,
+    .english:visited {
+      right: -5.4rem;
+      top: -3.5rem;
+    }
+    ul {
+      background-color: rgba(254, 251, 244, 1);
+      padding: 1rem 2rem 1rem 2rem;
+      box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
+      li {
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+
+/* lg */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  a.navbar-brand {
+    padding-left: 6rem;
+  }
+  div#navbarTogglerDemo02 {
+    .english:link,
+    .english:visited {
+      right: -45.3rem;
+    }
+    ul {
+      padding-right: 0;
+      li {
+        padding-left: 1rem;
+      }
+    }
+  }
+  li.nav-item {
+    padding-top: 1rem;
+    a.nav-link {
+      display: inline;
+    }
+  }
+}

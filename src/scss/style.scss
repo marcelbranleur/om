@@ -7,9 +7,11 @@
 
 @import "base/typography";
 @import "base/base";
+@import "base/media";
 
 @import "components/buttons";
 @import "components/calendar";
+@import "components/comments";
 @import "components/blog";
 @import "components/slider";
 
@@ -19,6 +21,7 @@
 @import "layout/navigation";
 @import "layout/sidebar";
 
+@import "pages/calendar";
 @import "pages/home";
 @import "pages/vad";
 

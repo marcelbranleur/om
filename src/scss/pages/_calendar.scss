@@ -1,0 +1,11 @@
+.event {
+    & h2 {
+        text-transform: uppercase;
+        text-align: center;
+    }
+    & div > span {
+        font-size: 1.2rem;
+        color: $color-pink;
+        text-transform: uppercase;
+    }
+}
