@@ -1,8 +1,10 @@
 .sidebar {
-    height: 60rem;
+    height: auto;
+    // height: 60rem;
     background-color: rgba(254, 251, 244, 0.733);
     padding: 2rem;
     box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
+    margin-bottom: 1rem;
    
     h4 {
         font-family: 'FFKarbidWebMedium', 'Source Sans Pro',sans-serif;
@@ -34,3 +36,9 @@
 
 }
 
+.sidebar-widget {
+    background-color: rgba(254, 251, 244, 0.733);
+    padding: 2rem;
+    box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
+    margin-bottom: 1rem;
+}

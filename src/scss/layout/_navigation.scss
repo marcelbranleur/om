@@ -16,18 +16,18 @@
     border: none;
 }
 
-.menu-link {
+.nav-link {
     padding-bottom: 0;
     border-bottom: 2px solid transparent;
 }
 
-.menu-link:hover,
-.menu-link:active {
+.nav-link:hover,
+.nav-link:active {
     border-bottom: 2px solid $color-pink;
     transition: border-bottom .5s;
 }
 
-.menu-item {
+.nav-item {
     padding-left: 2rem;
 }
 

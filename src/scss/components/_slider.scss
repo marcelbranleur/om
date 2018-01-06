@@ -1,18 +1,40 @@
 .col-slider {
     background-color: rgba(254, 251, 244, 0.733);
-    height: 30rem;
+    // height: 30rem;
     box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
+    
 }
 
 .slide-text {
     padding: 2rem 1rem 1rem 1rem;
+    
+    a {
+        display: block;
+        padding: 1rem 1rem 1rem 0rem;
+    }
+}
+
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    align-items: flex-end;
+    bottom: 1rem;
 }
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon{
     color: $color-green;
-    position: absolute;
-    bottom: 1rem; 
 }
 
 
+
+.slider-wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+    & .col-md-4 {
+        display: flex;
+        flex: 1;
+    }
+}

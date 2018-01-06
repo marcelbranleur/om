@@ -1,12 +1,12 @@
 .calendar {
+    width: 100%;
     position: relative;
     background-color: rgba(254, 251, 244, 0.733);
     padding: 2rem;
     margin-bottom: 1rem;
     box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
     
-
-    & a {
+    & > a {
         display: block;
         position: absolute;
         bottom: 0;
@@ -19,7 +19,6 @@
     }
 
     & ul {
-        list-style: none;
         padding: 0;
     }
 }

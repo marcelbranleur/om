@@ -1,4 +1,4 @@
-var person = {
-    name: 'qba',
-    age: 34
-};
+$('.carousel').carousel({
+    interval: 5000
+})
+

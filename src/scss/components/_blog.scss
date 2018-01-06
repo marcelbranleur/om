@@ -3,6 +3,7 @@
     padding: 1rem 2rem 1rem 2rem;
     box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
     margin-bottom: 1rem;
+    position: relative;
 
     a {
         display: block;
@@ -60,4 +61,24 @@
     }
 }
 
+.blog-wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+    & .col-md-4,
+    & .col-md-8 {
+        display: flex;
+        flex: 2;
+    }
+}
 
+.blog-excerpts-wrraper {
+    display: flex;
+    justify-content: space-between;
+    
+    &  .col-md-4,
+    &  .col-md-8 {
+        display: flex;
+        flex: 3;
+    }
+}
