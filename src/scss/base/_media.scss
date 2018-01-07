@@ -1,6 +1,19 @@
 /* xs */
 
 @media (max-width: 575px) {
+  // positioning
+  .row {
+    display: flex;
+  }
+  .order-sidebar {
+    order: 2;
+    .col {
+      padding: 0;
+    }
+  }
+  .order-content {
+    order: 1;
+  }
   a.navbar-brand {
     padding: 0 0;
   }
@@ -55,6 +68,19 @@
 /* sm */
 
 @media (min-width: 576px) and (max-width: 767px) {
+  // positioning
+  .row {
+    display: flex;
+  }
+  .order-sidebar {
+    order: 2;
+    .col {
+      padding: 0;
+    }
+  }
+  .order-content {
+    order: 1;
+  }
   a.navbar-brand {
     padding: 0 0;
   }
