@@ -1,10 +1,22 @@
 .navbar {
     font-family: 'FFKarbidWebMedium', 'Source Sans Pro',sans-serif;
     background-color: #F7F3E8;
+    display: inline-;
+    vertical-align: center;
 
     &-brand, ul {
       padding:  0 8rem 0 8rem;
     }
+
+    &-brand {
+    padding-left: 5rem;
+    }
+
+    ul {
+    padding-right: 5rem;
+    }
+    
+    
 
     & img {
         height: 130px;

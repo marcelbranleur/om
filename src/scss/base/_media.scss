@@ -7,28 +7,49 @@
   }
   .order-sidebar {
     order: 2;
+    
     .col {
       padding: 0;
     }
   }
   .order-content {
     order: 1;
+    
   }
+  
+  .slider-wrapper, .blog-wrapper, .blog-excerpts-wrraper {
+      display: block !important;
+  }
+  
+  .calendar {
+      text-align: center;
+  }
+
+  
+
+  
+  
+
+  
+
   a.navbar-brand {
     padding: 0 0;
+    margin-right: 0;
+  }
+  button.navbar-toggler{
+    padding: 0.25rem 0;
   }
   div#navbarTogglerDemo02 {
-    top: 7rem;
+    top: 9rem;
     padding-top: 0;
     background-color: rgba(254, 251, 244, 1);
-    right: 0.9rem;
+    right: 0;
+
     .english:link,
     .english:visited {
-      // position: absolute;
-      // right: 1rem;
-      // top: -3.5rem;
-      right: -5.4rem;
-      top: -5.5rem;
+      right: -7.4rem;
+      top: -7.5rem;
+      display: inline;
     }
     ul {
       background-color: rgba(254, 251, 244, 1);
@@ -37,6 +58,7 @@
       padding-top: 0;
       li {
         text-transform: uppercase;
+        text-align: center;
       }
     }
   }
@@ -58,6 +80,7 @@
   }
   li.nav-item {
     padding-top: 1rem;
+    padding-right: 2rem;
     a.nav-link {
       display: inline;
     }
@@ -81,6 +104,15 @@
   .order-content {
     order: 1;
   }
+  
+  .slider-wrapper, .blog-wrapper, .blog-excerpts-wrraper {
+      display: block !important;
+  }
+
+  .calendar {
+    text-align: center;
+  }
+
   a.navbar-brand {
     padding: 0 0;
   }
@@ -88,8 +120,9 @@
     right: 0.9rem;
     .english:link,
     .english:visited {
-      right: -5.4rem;
+      right: -7.4rem;
       top: -3.5rem;
+      display: inline;
     }
     ul {
       background-color: rgba(254, 251, 244, 1);
@@ -107,8 +140,6 @@
       div.carousel-item {
         position: relative;
         .slide-text {
-          position: absolute;
-          top: 50%;
           background-color: rgba(254, 251, 244, 0.8);
         }
       }
@@ -116,6 +147,7 @@
   }
   li.nav-item {
     padding-top: 1rem;
+    padding-right: 2rem;
     a.nav-link {
       display: inline;
     }
@@ -126,6 +158,9 @@
 /* md */
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .slider-wrapper, .blog-wrapper {
+    flex-wrap: wrap;
+  }
   a.navbar-brand {
     padding: 0 0;
   }
@@ -133,8 +168,9 @@
     right: 0.9rem;
     .english:link,
     .english:visited {
-      right: -5.4rem;
+      right: -7.4rem;
       top: -3.5rem;
+      display: inline;
     }
     ul {
       background-color: rgba(254, 251, 244, 1);
@@ -142,6 +178,7 @@
       box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
       li {
         text-transform: uppercase;
+        padding-right: 2rem;
       }
     }
   }
