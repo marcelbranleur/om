@@ -3,6 +3,7 @@
     height: 20rem;
     border-top: 1px solid $color-pink;
     font-size: 0.8rem;
+    background-color: rgba(247, 243, 232, 0.73);
 
 }
 
@@ -12,7 +13,7 @@
     &-person {
         padding-bottom: 1rem;
     }
-    
+
     ul {
         list-style: none;
         padding: 0;
@@ -22,7 +23,7 @@
             font-size: 1.5rem;
             display: inline-block;
             padding-right: 0.5rem;
-            
+
             a {
                 color: $color-green;
 
@@ -53,7 +54,7 @@
     &-link:visited {
         text-decoration: none;
         color: inherit;
-        
+
     }
 
     &-link:hover {
@@ -64,4 +65,3 @@
 .footer-about {
     padding: 2rem 0 1rem 0;
 }
-

@@ -1,11 +1,18 @@
 .event {
+    padding: 0 1rem;
+    
     & h2 {
         text-transform: uppercase;
         text-align: center;
+        padding: 0 3rem 1rem 3rem;
     }
     & div > span {
         font-size: 1.2rem;
         color: $color-pink;
         text-transform: uppercase;
+    }
+    
+    div:last-of-type {
+        padding-bottom: 1rem;
     }
 }

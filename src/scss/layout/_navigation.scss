@@ -1,7 +1,6 @@
 .navbar {
     font-family: 'FFKarbidWebMedium', 'Source Sans Pro',sans-serif;
     background-color: #F7F3E8;
-    display: inline-;
     vertical-align: center;
 
     &-brand, ul {
@@ -9,19 +8,23 @@
     }
 
     &-brand {
-    padding-left: 5rem;
+    padding-left: 1rem;
     }
 
     ul {
-    padding-right: 5rem;
+    padding-right: 1rem;
     }
-    
-    
 
     & img {
         height: 130px;
         width: auto;
     }
+
+    i {
+      padding-left: 0.3rem;
+    }
+
+    
 }
 
 .navbar-toggler {
@@ -29,8 +32,12 @@
 }
 
 .nav-link {
-    padding-bottom: 0;
     border-bottom: 2px solid transparent;
+    display: inline;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
 }
 
 .nav-link:hover,
@@ -40,7 +47,7 @@
 }
 
 .nav-item {
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
 .navbar-collapse {
@@ -52,12 +59,12 @@
 .english:link,
 .english:visited {
     position: relative;
-    right: -50.3rem;
+    right: -50.8rem;
     top: -2.5rem;
     color: rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
-    border-bottom: 2px solid transparent;
-    display: block;
+    border-bottom: 1px solid transparent;
+    display: inline;
     font-size: 80%;
 
     &:hover {

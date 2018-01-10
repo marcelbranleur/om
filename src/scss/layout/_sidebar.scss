@@ -2,10 +2,10 @@
     height: auto;
     // height: 60rem;
     background-color: rgba(254, 251, 244, 0.733);
-    padding: 2rem;
+    padding: 3rem 3rem 2rem 3rem;
     box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
     margin-bottom: 1rem;
-   
+
     h4 {
         font-family: 'FFKarbidWebMedium', 'Source Sans Pro',sans-serif;
     }
@@ -13,7 +13,7 @@
     & ul {
         list-style: none;
         padding: 0;
-        
+
     }
 
     & ul li {
@@ -26,11 +26,11 @@
         padding: 0;
         color: $font-color;
         font-size: 1rem;
-        border-bottom: 2px solid transparent;
+        border-bottom: 1px solid transparent;
     }
 
     & ul li a:hover {
-        border-bottom: 2px solid $color-green;
+        border-bottom: 1px solid $color-green;
         transition: border-bottom .5s;
     }
 

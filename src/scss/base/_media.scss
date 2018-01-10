@@ -194,7 +194,7 @@
   div#navbarTogglerDemo02 {
     .english:link,
     .english:visited {
-      right: -45.3rem;
+      right: -40.7rem;
     }
     ul {
       padding-right: 0;
@@ -207,6 +207,8 @@
     padding-top: 1rem;
     a.nav-link {
       display: inline;
+      padding-left:0px !important;
+    padding-right:0px !important;
     }
   }
 }
