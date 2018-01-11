@@ -159,7 +159,7 @@ function create_calendar_post_type() {
         'name' => __( 'Calendar' ),
         'singular_name' => __( 'calendar' )
       ),
-			'supports' => array('title', 'editor', 'revisions', 'thumbnail'),
+			'supports' => array('title', 'editor', 'revisions', 'thumbnail', 'comments'),
       'public' => true,
       'has_archive' => true,
     )

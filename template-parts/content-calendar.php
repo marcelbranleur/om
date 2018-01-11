@@ -38,13 +38,10 @@
 	</div>
 </div>
 
-		<?php	if ( is_singular() ) { ?>
-			<div class="comments">
-			Comments go here
-			<?php
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-			?>
-		</div>
-		<?php } ?>
+<?php	if ( is_singular() ) { ?>
+	<?php
+		if ( comments_open() || get_comments_number() ) :
+			comments_template();
+		endif;
+	?>
+<?php } ?>
