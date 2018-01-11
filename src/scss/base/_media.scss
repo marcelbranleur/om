@@ -25,12 +25,7 @@
       text-align: center;
   }
 
-  
 
-  
-  
-
-  
 
   a.navbar-brand {
     padding: 0 0;
@@ -84,6 +79,17 @@
     a.nav-link {
       display: inline;
     }
+  }
+  div.footer-contact {
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  div.footer-nav {
+    padding: 1rem;
+  }
+
+  div.footer-about {
+    padding: 1rem;
   }
 }
 
@@ -152,6 +158,17 @@
       display: inline;
     }
   }
+  div.footer-contact {
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  div.footer-nav {
+    padding: 1rem;
+  }
+
+  div.footer-about {
+    padding: 1rem;
+  }
 }
 
 
@@ -181,6 +198,12 @@
         padding-right: 2rem;
       }
     }
+  }
+  div.footer-contact {
+    padding-left: 1rem;
+  }
+  div.footer-about {
+    padding-right: 1rem;
   }
 }
 
