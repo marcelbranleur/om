@@ -23,7 +23,7 @@
 <body>
 
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-			<a href="<?php echo get_home_url(); ?>" class="navbar-brand"><img src="<?php echo get_home_url();?>/wp-content/themes/omforma/src/img/logo.png" class="img-fluid"></a>
+			<a href="<?php echo get_home_url(); ?>" class="navbar-brand"><img src="<?php echo get_home_url();?>/wp-content/themes/om/src/img/logo.png" class="img-fluid"></a>
     	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
