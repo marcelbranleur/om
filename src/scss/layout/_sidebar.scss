@@ -29,13 +29,7 @@
         border-bottom: 1px solid transparent;
     }
 
-    & a p,
-    & a h6 {
-        display: block;
-    }
-
-
-
+    & a:hover,
     & a:hover p,
     & a:hover h6 {
         border-bottom: 1px solid $color-green;
