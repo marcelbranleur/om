@@ -20,8 +20,8 @@
         padding: 0.5rem 0rem;
     }
 
-    & ul li a:link,
-    & ul li a:visited {
+    a:link,
+    a:visited {
         text-decoration: none;
         padding: 0;
         color: $font-color;
@@ -29,7 +29,7 @@
         border-bottom: 1px solid transparent;
     }
 
-    & ul li a:hover {
+    a:hover {
         border-bottom: 1px solid $color-green;
         transition: border-bottom .5s;
     }
