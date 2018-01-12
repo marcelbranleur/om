@@ -7,10 +7,6 @@
     box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
     text-align: center;
 
-    & h3 {
-        // padding-bottom: 1rem;
-    }
-    
     & > a {
         display: block;
         position: absolute;
@@ -21,6 +17,12 @@
         text-align: center;
         color: $font-color;
         background-color: rgba(53, 194, 124, 0.459);
+    }
+
+    a:hover {
+        color: $color-pink;
+        text-decoration: underline;
+        cursor: pointer;
     }
 
     & ul {
