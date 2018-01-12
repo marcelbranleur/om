@@ -1,6 +1,5 @@
 .sidebar {
     height: auto;
-    // height: 60rem;
     background-color: rgba(254, 251, 244, 0.733);
     padding: 3rem;
     box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
@@ -35,7 +34,7 @@
         border-bottom: 1px solid $color-green;
         transition: border-bottom .5s;
     }
-
+    
 }
 
 .sidebar-widget {

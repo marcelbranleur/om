@@ -25,6 +25,10 @@
         cursor: pointer;
     }
 
+    & p, h6 {
+        display: inline;
+    }
+
     & ul {
         padding: 0;
         list-style: none;
