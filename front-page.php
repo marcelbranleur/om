@@ -163,14 +163,15 @@ get_header(); ?>
 								'post_type' => 'calendar',
 								'post_status' => 'publish',
 								'posts_per_page' => 6, 
-								//'meta_key' => 'calendar_date',
-								//'orderby' => 'meta_value_num',
+								'meta_key' => 'calendar_date',
+								'orderby' => 'meta_value',
 								'order' => 'ASC',
-								//'meta_query' => array(
-								//	'key' => 'date',
-								//	'value' => $today,
-								//	'compare' => '>='
-								//)
+								'meta_query' => array(
+									'key' => 'calendar_date',
+									'value' => $today,
+									'compare' => '>=',
+									'type' => 'DATE',
+								)
 							);
 							$query = new WP_Query($args);
 							if($query->have_posts()) {

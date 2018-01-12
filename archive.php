@@ -26,9 +26,10 @@ get_header(); ?>
 						'orderby' => 'meta_value_num',
 						'order' => 'ASC',
 						'meta_query' => array(
-							'key' => 'date',
+							'key' => 'calendar_date',
 							'value' => $today,
-							'compare' => '>='
+							'compare' => '>=',
+							'type' => 'DATE',
 						)
 					);
 					$query = new WP_Query($args);
