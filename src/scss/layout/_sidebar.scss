@@ -28,11 +28,8 @@
         border-bottom: 1px solid transparent;
     }
 
-    & a:hover,
-    & a:hover p,
-    & a:hover h6 {
-        border-bottom: 1px solid $color-green;
-        transition: border-bottom .5s;
+    & a:hover {
+        color: $color-green;
     }
     
 }
