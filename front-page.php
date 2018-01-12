@@ -23,6 +23,8 @@ get_header(); ?>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
 								<?php
+									if(function_exists('CFS')) {
+
 									$loop = CFS()->get( 'slider_slide' );
 									$length = count($loop);
 									for($i = 0; $i < $length; $i++) {
@@ -36,7 +38,8 @@ get_header(); ?>
  										echo '<p class="slide-text">' . $loop[$i]['slider_text'];
  										echo ' <a href="' . $loop[$i]['slider_link']['url'] . '">Read more &rarr;</a></p>';
 										echo '</div>';	
-								}
+										}
+									}
 							?>
 							</div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -56,6 +59,7 @@ get_header(); ?>
           <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
 							<?php
+								if(function_exists('CFS')) {
 								$loop = CFS()->get( 'slider2_slide' );
 								$length = count($loop);
 								for($i = 0; $i < $length; $i++) {
@@ -69,6 +73,7 @@ get_header(); ?>
  									echo '<p class="slide-text">' . $loop[$i]['slider2_text'];
  									echo ' <a href="' . $loop[$i]['slider2_link']['url'] . '">Read more &rarr;</a></p>';
 									echo '</div>';	
+									}
 								}
 							?>
 							</div><!-- /carousel-inner -->
@@ -89,6 +94,7 @@ get_header(); ?>
           <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
 							<?php
+							if(function_exists('CFS')) {
 								$loop = CFS()->get( 'slider3_slide' );
 								$length = count($loop);
 								for($i = 0; $i < $length; $i++) {
@@ -103,6 +109,7 @@ get_header(); ?>
  									echo ' <a href="' . $loop[$i]['slider3_link']['url'] . '">Read more &rarr;</a></p>';
 									echo '</div>';	
 								}
+							}
 							?>
 						</div>
             <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
@@ -228,7 +235,7 @@ get_header(); ?>
 					$query->the_post();
 					if($query->current_post === 0) {
 						echo "<div class='col-md-8'>";
-						get_template_part( 'template-parts/content','excerpt', get_post_format() );
+						get_template_part( 'template-parts/content','excerpt-medium', get_post_format() );
 						echo "</div>";
 					} else {
 						echo "<div class='col-md-4'>";
