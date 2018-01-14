@@ -71,13 +71,7 @@
       display: inline;
     }
   }
-  div.footer-contact {
-    padding: 1rem 1rem 2rem 1rem;
-  }
-  div.footer-nav {
-    padding: 1rem;
-  }
-  div.footer-about {
+  div.footer {
     padding: 1rem;
   }
 }
@@ -143,17 +137,11 @@
       display: inline;
     }
   }
-  div.footer-contact {
-    padding: 1rem 1rem 2rem 1rem;
-  }
-
-  div.footer-nav {
+  div.footer {
     padding: 1rem;
   }
 
-  div.footer-about {
-    padding: 1rem;
-  }
+  
 }
 
 
@@ -206,6 +194,9 @@
         padding-right: 2rem;
       }
     }
+  }
+  div.footer {
+    padding: 1rem;
   }
 }
 
