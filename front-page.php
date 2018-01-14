@@ -20,7 +20,7 @@ get_header(); ?>
 			<div class="slider-wrapper">
 				<div class="col-md-4">
           <div class="col-slider">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
 								<?php
 									if(function_exists('CFS')) {
