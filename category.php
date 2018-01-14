@@ -12,7 +12,7 @@ get_header(); ?>
 <main class="blog">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-lg-4 order-sidebar">
 				<div class="sidebar">
 					<?php // Sidebar
 					$instance = array(
@@ -28,7 +28,7 @@ get_header(); ?>
 					?>
 				</div>
 			</div>
-			<div class="col-md-8">
+			<div class="col-lg-8 order-content">
 				<?php // Blog posts 
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					echo '<div class="blog-list">';
@@ -39,7 +39,9 @@ get_header(); ?>
 					}
 					echo '</div>';
 					?>
-				<?php load_more_button(); ?>
+					<?php if(function_exists('load_more_button')) {
+						load_more_button();
+					} ?>
 			</div>
 		</div>
 	</div>	

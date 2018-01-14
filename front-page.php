@@ -18,7 +18,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="slider-wrapper">
-				<div class="col-md-4">
+				<div class="col-lg-4">
           <div class="col-slider">
             <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
@@ -54,7 +54,7 @@ get_header(); ?>
          </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-lg-4">
         <div class="col-slider">
           <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -89,7 +89,7 @@ get_header(); ?>
          </div>
       </div>
 
-			<div class="col-md-4">
+			<div class="col-lg-4">
         <div class="col-slider">
           <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -137,7 +137,7 @@ get_header(); ?>
     </div>
 		<div class="row">
 			<div class="blog-wrapper">
-				<div class="col-md-8">
+				<div class="col-lg-8">
 					<?php // First bloggpost
 						$args = array(
 						'post_type' => 'post',
@@ -154,7 +154,7 @@ get_header(); ?>
 				</div>
 
 				<?php // The calendar ?>
-				<div class="col-md-4">
+				<div class="col-lg-4">
    				<div class="calendar">
     		 		<h3 class="text-center"><i class="fa fa-calendar-o" aria-hidden="true"></i> KALENDER</h3>
 						<?php
@@ -209,11 +209,11 @@ get_header(); ?>
 				while($query->have_posts()) {
 					$query->the_post();
 					if($query->current_post === 0) {
-						echo "<div class='col-md-4'>";
+						echo "<div class='col-lg-4'>";
 						get_template_part( 'template-parts/content','excerpt-small', get_post_format() );
 						echo "</div>";
 					} else {
-						echo "<div class='col-md-8'>";
+						echo "<div class='col-lg-8'>";
 						get_template_part( 'template-parts/content','excerpt-medium', get_post_format() );
 						echo "</div>";
 					}
@@ -235,11 +235,11 @@ get_header(); ?>
 				while($query->have_posts()) {
 					$query->the_post();
 					if($query->current_post === 0) {
-						echo "<div class='col-md-8'>";
+						echo "<div class='col-lg-8'>";
 						get_template_part( 'template-parts/content','excerpt-medium', get_post_format() );
 						echo "</div>";
 					} else {
-						echo "<div class='col-md-4'>";
+						echo "<div class='col-lg-4'>";
 						get_template_part( 'template-parts/content','excerpt-small', get_post_format() );
 						echo "</div>";
 					}

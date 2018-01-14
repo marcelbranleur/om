@@ -24,7 +24,7 @@ get_header(); ?>
 			dynamic_sidebar('sidebar-widgets');
 			$has_sidebar = ob_get_clean();
 			if($has_sidebar) { ?>
-				<div class="col-md-4 order-sidebar">
+				<div class="col-lg-4 order-sidebar">
 
 					<?php // Check if there's a menu sidebar  
 					ob_start();
@@ -51,9 +51,9 @@ get_header(); ?>
 					<?php } ?>
 
 				</div>
-				<div class="col-md-8 order-content">
+				<div class="col-lg-8 order-content">
 				<?php } else { ?>
-					<div class="col-md-8 offset-md-2">
+					<div class="col-lg-8 offset-lg-2">
 				<?php } ?>
 					<div class="page-content">
 						<?php // Page content

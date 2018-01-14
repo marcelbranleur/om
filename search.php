@@ -12,7 +12,7 @@ get_header(); ?>
 <main class="blog">
 	<div class="container">
 		<div class="row">
-			<div class="col">
+			<div class="col-lg-8 offset-lg-2">
 				<div class="page-content">
 
 				<?php

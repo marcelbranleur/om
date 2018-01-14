@@ -12,7 +12,7 @@ get_header(); ?>
 <main class="blog">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 order-sidebar">
+			<div class="col-lg-4 order-sidebar">
 				<div class="col">
 					<div class="sidebar">
 					<h4>Kalender</h4>
@@ -66,7 +66,7 @@ get_header(); ?>
 				<?php } ?>
 
 			</div>
-			<div class="col-md-8 order-content">
+			<div class="col-lg-8 order-content">
 				<?php
 				if ( have_posts() ) : ?>
 				<?php
