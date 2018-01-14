@@ -20,12 +20,12 @@
 
 </div>
 
-<div class="comments">
 <?php	if ( is_singular() ) { ?>
 	<?php
 		if ( comments_open() || get_comments_number() ) :
+			echo '<div class="comments">';
 				comments_template();
+			echo '</div>';
 		endif;
 	?>
 <?php } ?>
-</div>
