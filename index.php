@@ -36,6 +36,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="col-md-8 order-content">
+				<div class="blog-list">
 				<?php // Blog posts
 				if ( have_posts() ) {
 					while ( have_posts() ) : the_post();
@@ -43,6 +44,8 @@ get_header(); ?>
 					endwhile;
 				}
 				?>
+				</div>
+				<?php load_more_button(); ?>
 			</div>
 		</div>
 	</div>

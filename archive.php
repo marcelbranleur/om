@@ -69,8 +69,6 @@ get_header(); ?>
 			<div class="col-md-8 order-content">
 				<?php
 				if ( have_posts() ) : ?>
-				<header class="page-header">
-					<h1>Kalender</h1>
 				<?php
 				while ( have_posts() ) : the_post();
 					get_template_part( 'template-parts/content-calendar', get_post_format() );

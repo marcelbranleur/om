@@ -31,13 +31,15 @@ get_header(); ?>
 			<div class="col-md-8">
 				<?php // Blog posts 
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="archive-description">', '</div>' );
+					echo '<div class="blog-list">';
 					if ( have_posts() ) {
 						while ( have_posts() ) : the_post();
 							get_template_part( 'template-parts/content-excerpt', get_post_format() );
 						endwhile;
 					}
+					echo '</div>';
 					?>
+				<?php load_more_button(); ?>
 			</div>
 		</div>
 	</div>	
