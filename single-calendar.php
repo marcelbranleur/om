@@ -21,9 +21,9 @@ get_header(); ?>
 					$args = array(
 						'post_type' => 'calendar',
 						'post_status' => 'publish',
-						'posts_per_page' => 6, 
+						'posts_per_page' => 999, 
 						'meta_key' => 'calendar_date',
-						'orderby' => 'meta_value_num',
+						'orderby' => 'meta_value',
 						'order' => 'ASC',
 						'meta_query' => array(
 							'key' => 'calendar_date',

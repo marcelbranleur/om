@@ -21,9 +21,9 @@ get_header(); ?>
 					$args = array(
 						'post_type' => 'calendar',
 						'post_status' => 'publish',
-						'posts_per_page' => 6, 
+						'posts_per_page' => 999, 
 						'meta_key' => 'calendar_date',
-						'orderby' => 'meta_value_num',
+						'orderby' => 'meta_value',
 						'order' => 'ASC',
 						'meta_query' => array(
 							'key' => 'calendar_date',
@@ -67,15 +67,31 @@ get_header(); ?>
 
 			</div>
 			<div class="col-lg-8 order-content">
-				<?php
-				if ( have_posts() ) : ?>
-				<?php
-				while ( have_posts() ) : the_post();
-					get_template_part( 'template-parts/content-calendar', get_post_format() );
-					endwhile;
-				else :
+
+			<?php
+				$today = date('Ymd');
+				$args = array(
+					'post_type' => 'calendar',
+					'post_status' => 'publish',
+					'posts_per_page' => 999, 
+					'meta_key' => 'calendar_date',
+					'orderby' => 'meta_value',
+					'order' => 'ASC',
+					'meta_query' => array(
+						'key' => 'calendar_date',
+						'value' => $today,
+						'compare' => '>=',
+						'type' => 'DATE',
+					)
+				);
+				query_posts($args);
+				if(have_posts()) {
+					while ( have_posts() ) : the_post();
+						get_template_part( 'template-parts/content-calendar', get_post_format() );
+						endwhile;
+				} else {
 					get_template_part( 'template-parts/content', 'none' );
-				endif; ?>
+				} ?>
 			</div>
 
 		</div>
