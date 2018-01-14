@@ -1,3 +1,9 @@
+html {
+    p, h1, h2, h3, h4, h5, h6 {
+        hyphens: auto;
+    }
+}
+
 blockquote {
     font-family: 'FFKarbidWebMedium', 'Source Sans Pro',sans-serif;
     color: $font-color;

@@ -94,8 +94,8 @@
     display: flex;
     justify-content: space-between;
 
-    & .col-md-4,
-    & .col-md-8 {
+    & .col-lg-4,
+    & .col-lg-8 {
         display: flex;
         flex: 2;
     }
@@ -105,8 +105,8 @@
     display: flex;
     justify-content: space-between;
 
-    &  .col-md-4,
-    &  .col-md-8 {
+    &  .col-lg-4,
+    &  .col-lg-8 {
         display: flex;
         flex: 3;
     }

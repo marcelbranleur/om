@@ -14,19 +14,10 @@
   }
   .order-content {
     order: 1;
-    
   }
-  
   .slider-wrapper, .blog-wrapper, .blog-excerpts-wrraper {
       display: block !important;
   }
-  
-  .calendar {
-      text-align: center;
-  }
-
-
-
   a.navbar-brand {
     padding: 0 0;
     margin-right: 0;
@@ -83,11 +74,9 @@
   div.footer-contact {
     padding: 1rem 1rem 2rem 1rem;
   }
-
   div.footer-nav {
     padding: 1rem;
   }
-
   div.footer-about {
     padding: 1rem;
   }
@@ -110,14 +99,10 @@
   .order-content {
     order: 1;
   }
-  
   .slider-wrapper, .blog-wrapper, .blog-excerpts-wrraper {
       display: block !important;
   }
 
-  .calendar {
-    text-align: center;
-  }
 
   a.navbar-brand {
     padding: 0 0;
@@ -175,8 +160,31 @@
 /* md */
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .slider-wrapper, .blog-wrapper {
+  .row {
+    display: flex;
+  }
+  .order-sidebar {
+    order: 2;
+    
+    .col {
+      padding: 0;
+    }
+  }
+  .order-content {
+    order: 1;
+  }
+  .slider-wrapper {
     flex-wrap: wrap;
+
+    .col-lg-4 {
+      margin-bottom: 1rem;
+    }
+  }
+  div.page-content {
+    margin-bottom: 1rem;
+  }
+  .blog-wrapper, .blog-excerpts-wrraper {
+    display: block !important;
   }
   a.navbar-brand {
     padding: 0 0;
@@ -198,12 +206,6 @@
         padding-right: 2rem;
       }
     }
-  }
-  div.footer-contact {
-    padding-left: 1rem;
-  }
-  div.footer-about {
-    padding-right: 1rem;
   }
 }
 
@@ -231,7 +233,7 @@
     a.nav-link {
       display: inline;
       padding-left:0px !important;
-    padding-right:0px !important;
+      padding-right:0px !important;
     }
   }
 }
