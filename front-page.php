@@ -36,7 +36,7 @@ get_header(); ?>
  									 	$attachment_id = $loop[$i]['slider_bild'];
 										echo wp_get_attachment_image( $attachment_id, 'slider', "", array("class" => "d-block w-100 img-fluid slide-img"));
  										echo '<p class="slide-text">' . $loop[$i]['slider_text'];
- 										echo ' <a href="' . $loop[$i]['slider_link']['url'] . '">Read more &rarr;</a></p>';
+ 										echo ' <a href="' . $loop[$i]['slider_link']['url'] . '">Läs mer &rarr;</a></p>';
 										echo '</div>';	
 										}
 									}
@@ -71,7 +71,7 @@ get_header(); ?>
  									$attachment_id = $loop[$i]['slider2_bild'];
 									echo wp_get_attachment_image( $attachment_id, 'slider', "", array("class" => "d-block w-100 img-fluid slide-img"));
  									echo '<p class="slide-text">' . $loop[$i]['slider2_text'];
- 									echo ' <a href="' . $loop[$i]['slider2_link']['url'] . '">Read more &rarr;</a></p>';
+ 									echo ' <a href="' . $loop[$i]['slider2_link']['url'] . '">Läs mer &rarr;</a></p>';
 									echo '</div>';	
 									}
 								}
@@ -106,7 +106,7 @@ get_header(); ?>
  								  $attachment_id = $loop[$i]['slider3_bild'];
 									echo wp_get_attachment_image( $attachment_id, 'slider', "", array("class" => "d-block w-100 img-fluid slide-img"));
  									echo '<p class="slide-text">' . $loop[$i]['slider3_text'];
- 									echo ' <a href="' . $loop[$i]['slider3_link']['url'] . '">Read more &rarr;</a></p>';
+ 									echo ' <a href="' . $loop[$i]['slider3_link']['url'] . '">Läs mer &rarr;</a></p>';
 									echo '</div>';	
 								}
 							}

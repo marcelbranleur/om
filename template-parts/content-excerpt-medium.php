@@ -14,7 +14,7 @@
 	<p>
 	<?php
 		echo excerpt(50);
-		echo '<a href="' . esc_url( get_permalink() ) . '" class="blog-link">Read more &rarr;</a>'; 
+		echo '<a href="' . esc_url( get_permalink() ) . '" class="blog-link">Läs mer &rarr;</a>'; 
 	?>
 	</p>
 </div>
