@@ -1,17 +1,17 @@
 .blog-post {
     width: 100%;
     background-color: rgba(254, 251, 244, 0.833);
-    padding: 3rem;
+    padding: 2rem;
     box-shadow: -4px 4px 5px 0px rgba(50, 50, 50, 0.247);
     margin-bottom: 1rem;
 
     h3 {
-        padding-bottom: 1rem;
         text-transform: uppercase;
+        font-family: 'FFKarbidWebLight', 'Source Sans Pro', sans-serif;
+        font-size: 1.5rem;
     }
 
     img {
-        
         width: 50%;
         height: auto;
         float: left;
@@ -55,7 +55,7 @@
         width: 100%;
         color: #000000;
         text-transform: uppercase;
-        font-family: 'FFKarbidWebMedium', 'Source Sans Pro', sans-serif;
+        font-family: 'FFKarbidWebLight', 'Source Sans Pro', sans-serif;
 
     }
 }
