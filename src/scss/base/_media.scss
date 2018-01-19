@@ -203,14 +203,12 @@
 
 /* lg */
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  a.navbar-brand {
-    padding-left: 6rem;
-  }
+@media (min-width: 992px) and (max-width: 1199px) 
+{
   div#navbarTogglerDemo02 {
     .english:link,
     .english:visited {
-      right: -40.7rem;
+      right: -37.7rem;
     }
     ul {
       padding-right: 0;
