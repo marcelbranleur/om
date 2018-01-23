@@ -246,7 +246,7 @@ function excerpt($limit) {
 /*
 * Function ot add image sizes 
 */
-add_image_size( 'slider', 350, 240, true );
+add_image_size( 'slider', 750, 500, true );
 
 /*
 * Function to remove "Category:" and "Archive:" from category/archive pages 
